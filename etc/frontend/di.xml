@@ -25,13 +25,6 @@
             </argument>
         </arguments>
     </type>
-    <type name="Magento\Framework\View\Result\Page">
-        <arguments>
-            <argument name="layoutReaderPool" xsi:type="object">pageConfigRenderPool</argument>
-            <argument name="generatorPool" xsi:type="object">pageLayoutGeneratorPool</argument>
-            <argument name="template" xsi:type="string">Qbo_PayPalPlusMx::root.phtml</argument>
-        </arguments>
-    </type>
     <preference for="Magento\Paypal\Model\Ipn" type="Qbo\PayPalPlusMx\Model\Ipn" />
     <preference for="Magento\Paypal\Model\Config" type="Qbo\PayPalPlusMx\Model\Config" />
 </config>
